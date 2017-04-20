@@ -1,0 +1,146 @@
+.contentTable {
+  margin-left: 12px;  
+  border: 1px solid black;
+  background-color: white;
+}
+
+.footerTable {
+  margin-left: 10px;
+  margin-right: 10px;	
+}
+
+.formHeader {
+  background: #cadced;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 3px;
+}
+
+.formHeaderNoBG {
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 3px;
+}
+
+.formHeaderBigNoBG {
+  color: black;
+  font-weight: bold;
+  font-size: 32px;
+  padding: 3px;
+}
+
+.formFieldLabel {	
+	font-weight: bold;
+	background: #057EA0;
+	max-width: 27em;
+	min-width: 27em;
+	color: white;
+	margin-left: 3px;
+	margin-right: 3px;
+	font-size: 12px;
+}
+
+.formFieldLabelNew {
+	font-weight: bold;
+	background: #057EA0;
+	width: 10%;
+	color: white;
+	margin-left: 3px;
+	margin-right: 3px;
+	font-size: 12px;
+	white-space: nowrap;
+}
+
+.formField {
+  background: white;
+  font-size: 12px;
+}
+
+.formBtn {   
+  color:#03499e;   
+  font-weight: bold;  
+  background:#FFFFCC;   
+  border:1px solid;   
+  border-color: #03499e #057EA0 #057EA0 #03499e;   
+  cursor: pointer;
+} 
+
+.buttonBG {
+  background: white;
+}
+
+.bannerBG {
+  background: #050480;
+  background-image: url("../img/banner_top.jpg");
+  background-repeat: no-repeat;
+}
+
+.borderLine {
+  background: #000000;
+}
+
+.buildText {
+  font-size: 10px;
+  font-weight: bold;	
+}
+
+.instructionText {  
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.instructionTextLarge {  
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  font-size: 16px;
+}
+.deleteLink {
+  text-decoration: none;
+  color: red;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+  padding: 2px;
+}
+
+.addLink {
+  text-decoration: none;
+  color: #057EA0;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+  padding: 2px;
+}
+
+.returnLink {
+  color: black;
+  font-size: 12px;  
+  font-weight: bold;  
+}
+
+.controlBar {
+  font-size: 10pt; 
+  line-height: 15pt; 
+  font-weight: bold; 
+  color: #000; 
+  background-color: #FFFFCC; 
+}
+
+.messagePanel {
+  padding-top: 3px;
+  padding-left: 5px;
+  font-size: 12px;
+  width:100%;
+  background-color: #FFFFCC; 
+  border: solid 1px black;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}

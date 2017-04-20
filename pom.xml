@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>mil.dtic.devtools.examples</groupId>
+    <artifactId>HelloDtic</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>war</packaging>
+    <name>DevToolsHelloDticExample</name>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.build.timestamp.format>yyyy-MM-dd HH:mm:ss</maven.build.timestamp.format>
+        <buildID>${env.BUILD_ID}</buildID>
+        <buildTag>${env.BUILD_TAG}</buildTag>
+        <buildTimestamp>${maven.build.timestamp}</buildTimestamp>
+        <buildUser>${env.USER}</buildUser>
+        <jenkinsExecutor>${env.EXECUTOR_NUMBER}</jenkinsExecutor>
+        <jenkinsJobName>${env.JOB_NAME}</jenkinsJobName>
+        <jenkinsNodeName>${env.NODE_NAME}</jenkinsNodeName>
+        <jenkinsWorkspace>${env.WORKSPACE}</jenkinsWorkspace>
+        <sourceCommit>${env.GIT_COMMIT}</sourceCommit>
+        <sourceRepo>${env.GIT_URL}</sourceRepo>
+        <sourceTag>${env.GIT_BRANCH}</sourceTag>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.3</version>
+                <configuration>
+                    <source />
+                    <target />
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

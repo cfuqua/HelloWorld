@@ -29,7 +29,7 @@
                 <div class="instructionText">
                     <hr>
                     <p>
-                    <strong>Version Info: Again Testing Testing WebHook Testing</strong>
+                    <strong>Version Info: MAY 4, 1436</strong>
                     <p>
                     <%=AppVersionInfo.getVersionInfo().replace(",", "<br>").replace("{", "").replace("}", "")%>
                 </div>

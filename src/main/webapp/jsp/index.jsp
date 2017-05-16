@@ -10,7 +10,7 @@
 <body>
 	<center>
         <img src="img/helloWorld.jpeg"><br>
-		Hello DTIC! (last updated 14 Dec 2016)
+		Hello DTIC! (last updated 14 Dec 2016 did commit work)
 		Test automatic build
 		<p>
 			The time is now

@@ -29,7 +29,7 @@
                 <div class="instructionText">
                     <hr>
                     <p>
-                    <strong>Version Info: June 12, 2017 (GitLab UI)</strong>
+                    <strong>Version Info: July 31, 2017 (GitLab UI)</strong>
                     <p>
                     <%=AppVersionInfo.getVersionInfo().replace(",", "<br>").replace("{", "").replace("}", "")%>
                 </div>

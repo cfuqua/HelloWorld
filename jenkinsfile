@@ -1,4 +1,4 @@
-deliveryPipeline(branch: 'master', scmUrl: 'ssh://git@myScmServer.com/repos/myRepo.git',
+deliveryPipeline(branch: 'master', scmUrl: 'http://jenkins@devtools.cicd.dev-eval.net/gitlab/sample/HelloDtic.git',
                    email: 'team@example.com', serverPort: '8080',
                    developmentServer: 'dev-myproject.mycompany.com',
                    stagingServer: 'staging-myproject.mycompany.com',
